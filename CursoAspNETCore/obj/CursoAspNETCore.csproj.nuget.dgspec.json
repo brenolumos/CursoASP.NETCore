@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Note-65\\source\\repos\\CursoAspNETCore\\CursoAspNETCore\\CursoAspNETCore.csproj": {}
+    "C:\\Users\\Note-65\\source\\repos\\brenolumos\\CursoASP.NETCore\\CursoAspNETCore\\CursoAspNETCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Note-65\\source\\repos\\CursoAspNETCore\\CursoAspNETCore\\CursoAspNETCore.csproj": {
+    "C:\\Users\\Note-65\\source\\repos\\brenolumos\\CursoASP.NETCore\\CursoAspNETCore\\CursoAspNETCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Note-65\\source\\repos\\CursoAspNETCore\\CursoAspNETCore\\CursoAspNETCore.csproj",
+        "projectUniqueName": "C:\\Users\\Note-65\\source\\repos\\brenolumos\\CursoASP.NETCore\\CursoAspNETCore\\CursoAspNETCore.csproj",
         "projectName": "CursoAspNETCore",
-        "projectPath": "C:\\Users\\Note-65\\source\\repos\\CursoAspNETCore\\CursoAspNETCore\\CursoAspNETCore.csproj",
+        "projectPath": "C:\\Users\\Note-65\\source\\repos\\brenolumos\\CursoASP.NETCore\\CursoAspNETCore\\CursoAspNETCore.csproj",
         "packagesPath": "C:\\Users\\Note-65\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Note-65\\source\\repos\\CursoAspNETCore\\CursoAspNETCore\\obj\\",
+        "outputPath": "C:\\Users\\Note-65\\source\\repos\\brenolumos\\CursoASP.NETCore\\CursoAspNETCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
