@@ -45,6 +45,22 @@ namespace CursoAspNETCore.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Companies");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("c9d4c053-49b6-410c-bc78-2d54a9991870"),
+                            Address = "Rua Abdon Batista 342, Centro",
+                            Country = "Brazil",
+                            Name = "Fulltech Pro Ltda"
+                        },
+                        new
+                        {
+                            Id = new Guid("3d490a70-94ce-4d15-9494-5248280c2ce3"),
+                            Address = "10400 Northeast Fourth Street Floor 14 Bellevue, WA 98004",
+                            Country = "USA",
+                            Name = "Valve Corporation"
+                        });
                 });
 
             modelBuilder.Entity("Entities.Models.Employee", b =>
@@ -75,6 +91,32 @@ namespace CursoAspNETCore.Migrations
                     b.HasIndex("CompanyId");
 
                     b.ToTable("Employees");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("8eb65ea9-9563-440c-810c-d10f3dcf36c6"),
+                            Age = 35,
+                            CompanyId = new Guid("c9d4c053-49b6-410c-bc78-2d54a9991870"),
+                            Name = "Kane Miller",
+                            Position = "Administrator"
+                        },
+                        new
+                        {
+                            Id = new Guid("4f65bd25-9b59-4ad7-9f8e-a4bf0c38dbba"),
+                            Age = 30,
+                            CompanyId = new Guid("c9d4c053-49b6-410c-bc78-2d54a9991870"),
+                            Name = "Jana McLeaf",
+                            Position = "Software developer"
+                        },
+                        new
+                        {
+                            Id = new Guid("e46cf629-d056-4385-b6c2-0f919ce01c47"),
+                            Age = 24,
+                            CompanyId = new Guid("3d490a70-94ce-4d15-9494-5248280c2ce3"),
+                            Name = "Bruno Lemos",
+                            Position = "Software developer"
+                        });
                 });
 
             modelBuilder.Entity("Entities.Models.Employee", b =>
