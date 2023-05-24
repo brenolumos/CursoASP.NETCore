@@ -9,6 +9,11 @@ LogManager.LoadConfiguration(string.Concat(Directory.GetCurrentDirectory(), "/nl
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegrations();
 builder.Services.ConfigureLoggerService();
+builder.Services.ConfigureRepositoryManager();
+builder.Services.ConfigureRepositoryManager();
+builder.Services.ConfigureServiceManager();
+builder.Services.ConfigureSqlContext(builder.Configuration);
+builder.Services.AddControllers().AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 
 builder.Services.AddControllers();
 
