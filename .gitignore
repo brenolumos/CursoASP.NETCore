@@ -1,0 +1,24 @@
+# Ignore Visual Studio files
+*.suo
+*.user
+*.sln.docstates
+*.bak
+obj/
+bin/
+
+# Ignore NuGet packages
+packages/
+
+# Ignore build output
+[Dd]ebug/
+[Rr]elease/
+obj/
+bin/
+*.exe
+*.pdb
+*.dll
+
+# Ignore miscellaneous files
+Thumbs.db
+desktop.ini
+*.swp
